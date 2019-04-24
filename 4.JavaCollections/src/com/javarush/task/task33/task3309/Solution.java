@@ -1,6 +1,6 @@
 package com.javarush.task.task33.task3309;
 
-import org.w3c.dom.Document;
+import org.w3c.dom.*;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
@@ -21,7 +21,15 @@ public class Solution {
             DocumentBuilder db = dbf.newDocumentBuilder();
             Document document = db.newDocument();
 
-            JAXBContext context = JAXBContext.newInstance(obj.getClass());
+
+/*	        Element documentElement = document.getDocumentElement();
+	        Comment comment1 = document.createComment(comment);
+	        NodeList nodeList = documentElement.getElementsByTagName(tagName);
+	        for (int i = 0; i < nodeList.getLength(); i++) {
+		        nodeList.item(i).insertBefore(comment1, nodeList.item(i));
+	        }*/
+
+	        JAXBContext context = JAXBContext.newInstance(obj.getClass());
             Marshaller marshaller = context.createMarshaller();
             marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT,Boolean.TRUE);
             marshaller.marshal(obj, stringWriter);
