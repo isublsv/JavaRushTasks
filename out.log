@@ -8856,3 +8856,21 @@ java.lang.ClassCastException: com.intellij.psi.impl.source.PsiJavaCodeReferenceE
 2019-04-24 15:51:00 INFO  ApacheHttpClient.startGA(35) - GAService started.
 2019-04-24 15:51:00 INFO  AbstractRestApiClient.startService(71) - EventsService started.
 2019-04-24 15:51:00 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2019-04-24 15:52:00 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
+2019-04-24 15:52:00 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
+2019-04-24 15:52:22 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
+
+2019-04-24 15:52:22 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
+
+2019-04-24 15:52:22 INFO  ApacheHttpClient.getTask(471) - responseCode = 200
+2019-04-24 15:52:22 INFO  ApacheHttpClient.getTask(471) - responseCode = 200
+2019-05-20 19:36:17 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2019-05-20 19:36:17 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.30 ----------
+
+2019-05-20 19:36:18 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(585) - Waiting for server response.
+2019-05-20 19:36:18 INFO  ApacheHttpClient.refreshUserInfo(293) - responseCode = 200
+2019-05-20 19:36:18 INFO  ApacheHttpClient.refreshUserInfo(299) - User information received.
+2019-05-20 19:36:18 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2019-05-20 19:36:18 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2019-05-20 19:37:07 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
+
